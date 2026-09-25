@@ -70,12 +70,7 @@ The exported database is located in the `database` folder:
 
 This file contains the database schema and exported records from the local development database. Remove password hashes, personal information, and other private records before publishing it publicly.
 
-## Security Notes
 
-- Never commit `.env` to GitHub.
-- Commit `.env.example` instead, using placeholders only.
-- Do not publish real passwords, API keys, database credentials, password hashes, identity numbers, or private customer records.
-- Change any credentials that may already have been exposed.
 
 ## License
 
