@@ -1,0 +1,124 @@
+/* Apply Loan Page Specific Styles */
+.loan-application {
+    padding: 30px 0;
+}
+
+.loan-application h1 {
+    margin-bottom: 25px;
+    color: var(--secondary-color);
+}
+
+.card {
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+.loan-calculator {
+    background-color: #f8f9fa;
+    border-radius: var(--border-radius);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.loan-calculator h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: var(--secondary-color);
+    font-size: 18px;
+}
+
+.calculator-result {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.result-item {
+    flex: 1;
+    min-width: 200px;
+    background-color: white;
+    padding: 15px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.result-label {
+    display: block;
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 5px;
+}
+
+.result-value {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.terms-agreement {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.terms-agreement input {
+    margin: 0;
+}
+
+.terms-agreement label {
+    margin: 0;
+    font-weight: normal;
+}
+
+.terms-agreement a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.terms-agreement a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .calculator-result {
+        flex-direction: column;
+    }
+    
+    .result-item {
+        width: 100%;
+    }
+}

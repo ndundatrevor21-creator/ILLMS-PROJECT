@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Blocked - LendingPro</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        .blocked-container {
+            max-width: 600px;
+            margin: 100px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .blocked-icon {
+            font-size: 80px;
+            color: #dc3545;
+            margin-bottom: 20px;
+        }
+        
+        .blocked-title {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .blocked-message {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+        
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        @media (max-width: 768px) {
+            .blocked-container {
+                margin: 50px 20px;
+                padding: 20px;
+            }
+            
+            .blocked-icon {
+                font-size: 60px;
+            }
+            
+            .blocked-title {
+                font-size: 24px;
+            }
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="blocked-container">
+        <div class="blocked-icon">
+            <i class="fas fa-ban"></i>
+        </div>
+        <h1 class="blocked-title">Access Blocked</h1>
+        <p class="blocked-message">
+            Your account has been temporarily blocked due to suspicious activity or a violation of our terms of service. 
+            If you believe this is an error, please contact our support team for assistance.
+        </p>
+        <div class="action-buttons">
+            <a href="index.php" class="btn btn-secondary">Return to Home</a>
+            <a href="mailto:support@lendingpro.com" class="btn btn-primary">Contact Support</a>
+        </div>
+    </div>
+</body>
+</html>
